@@ -8,7 +8,6 @@ Create your api token by
 1. creating an account in Zurili: https://app.zurili.com/signup
 1. creating an api key at: https://app.zurili.com/settings/api
 
-A token is valid for up to 14 days.
-
 ## APIs
 1. [Resources](resources.md) - the entities with which appointments can be made
+1. [Appointment Templates](appointmentTemplates.md) 
