@@ -9,4 +9,4 @@ Create your api token by
 1. creating an api key at: https://app.zurili.com/settings/api
 
 ## APIs
-1. [Resources](resources) - the entities with which appointments can be made
+1. [Resources](resources.md) - the entities with which appointments can be made
