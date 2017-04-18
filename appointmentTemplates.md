@@ -3,4 +3,4 @@
 Retrive a list of Appointment Templates.
 
 ## `GET /api/appointmentTemplates/:id`
-Retrive a details of an Appointment Template with :id.
+Retrive full details of an individual Appointment Template.
