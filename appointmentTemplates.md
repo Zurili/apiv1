@@ -1,6 +1,6 @@
 # Appointment Templates
-## GET /api/appointmentTemplates
+## `GET /api/appointmentTemplates`
 Retrive a list of Appointment Templates.
 
-## GET /api/appointmentTemplates/:id
+## `GET /api/appointmentTemplates/:id`
 Retrive a details of an Appointment Template with :id.
