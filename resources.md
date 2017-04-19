@@ -47,6 +47,4 @@ Typical reponse:
 ]
 ```
 
-All times in UTC
-
-Appointment duration, post-booking script etc can be retrieved from the [Appointment Template](appointmentTemplates.md).
+Appointment duration, description etc can be retrieved from the [Appointment Template](appointmentTemplates.md).
