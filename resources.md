@@ -4,6 +4,20 @@ A resource is something you can book an appointment with.
 ## `GET /api/resources`
 List of active resources at a site.
 
+Typical response:
+```
+[
+  {
+    "_id": "57888804b5dded0814d52b2a",
+    "name": "John Smith",
+    "professions": ["Chiropractor"],
+    "regions": [],
+    "appointmentInterval": 15,
+    "status": "Active"
+  }
+]
+```
+
 ## `GET /api/resources/:id/availability`
 Appointment times available to make appointments with the specified resource.
 
@@ -17,6 +31,7 @@ Optional query parameters:
 
 ### response
 Typical reponse:
+```
 [
   "2017-04-18T03:00:00.000Z",
   "2017-04-18T03:45:00.000Z",
@@ -31,6 +46,7 @@ Typical reponse:
   "2017-04-21T03:45:00.000Z",
   "2017-04-21T04:30:00.000Z"
 ]
+```
 
 All times in UTC
 
