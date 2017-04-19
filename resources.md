@@ -26,8 +26,8 @@ Required query parameters:
 1. `utcOffset` offset of the time zone from utc for the `start` and `end` dates below. Specified in minutes. e.g. australia/brisbane is 600. Supply browser offset `-new Date().getTimezoneOffset()`. Only used if site has not set their onw timezone.
 
 Optional query parameters:
-1. `start` date to start looking for available times. Defaults to today.
-1. `end` date to end looking for available times. Defaults to today + 7d
+1. `start` date to start looking for available times. Defaults to now.
+1. `end` date to end looking for available times. Defaults to now + 7d
 
 Typical reponse:
 ```
