@@ -23,7 +23,7 @@ Appointment times available to make appointments with the specified resource.
 
 Required query parameters:
 1. `at` appointment template id. The id of the [appointment template](appointmentTemplates.md) that will describe the appointment to be created. The appointment tempate contains the Resource to make the appointment with as well as the duration in min required from the resource to make the appointment.
-1. `utcOffset` offset of the time zone from utc for the `start` and `end` dates below. Specified in minutes. e.g. australia/brisbane is 600.
+1. `utcOffset` offset of the time zone from utc for the `start` and `end` dates below. Specified in minutes. e.g. australia/brisbane is 600. Supply browser offset `-new Date().getTimezoneOffset()`. Only used if site has not set their onw timezone.
 
 Optional query parameters:
 1. `start` date to start looking for available times. Defaults to today.
