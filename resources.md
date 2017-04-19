@@ -29,7 +29,6 @@ Optional query parameters:
 1. `start` date to start looking for available times. Defaults to today.
 1. `end` date to end looking for available times. Defaults to today + 7d
 
-### response
 Typical reponse:
 ```
 [
