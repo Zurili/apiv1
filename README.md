@@ -6,9 +6,9 @@ Authentication is by using a bearer token in the auth header:
 `Authorization bearer: jwt`
 
 Create your jwt by
-1. creating an account in Zurili: https://app.zurili.com/signup
-1. creating an api key at: https://app.zurili.com/settings/api
-1. login using the api key to get a jwt: `POST /login apiKey=[your-api-key]`. You will get a jwt which is valid for 14 days. Typical response:
+1. Create an account in Zurili: https://app.zurili.com/signup
+1. Create an api key at: https://app.zurili.com/settings/api
+1. Login using the api key to get a jwt: `POST /login apiKey=[your-api-key]`. You will get a jwt which is valid for 14 days. Typical response:
 ```
 {
   "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOnsiX2lkIjoiNTczYWNmMjNjZDkyYzA0MDBiZWEwNjMzIiwiZW1haWwiOiJtZXpnZXJsb2NhbEA1NmExY2NjZjAxYTlhMmRjMWIyNGQzOGYuY29tIiwiZGlzcGxheU5hbWUiOiJtZXpnZXJMb2NhbCIsInJvbGVzIjpbImFwaSJdLCJjdXJyZW50U2l0ZSI6IjU2YTFjY2NmMDFhOWEyZGMxYjI0ZDM4ZiJ9LCJpYXQiOjE0OTI2Njg5MDIsImV4cCI6MTQ5Mzg3ODUwMn0.Nqm65y2k353HCgBfuKaE1mI2zpaI8FlD93n9B3JaaG8",
