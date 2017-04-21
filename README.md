@@ -27,8 +27,9 @@ Create your jwt by
 ```
 4. Use the jwt in the Authorization header like `Authorization bearer: jwt`
 
-## Parameters
+## Value formatting
 Dates formatted as ISO 8601 string.
+Prices and ledger amounts are integers which represent the cent value.
 
 ## APIs
 1. [Resources](resources.md) - the entities with which appointments can be made
