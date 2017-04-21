@@ -34,5 +34,46 @@ Typical response:
 
 `products` is the default products or services that will be billed for appointments based on this template
 
-You can also get entended versions of products or resources by adding parameter `includes[]` like this:
-`/api/appointmentTemplates/:id?includes[]=resources&includes[]='products`
+You can also get entended versions of products and/or resources by adding parameter `includes[]` like this:
+`/api/appointmentTemplates/:id?includes[]=resources&includes[]=products`
+
+You'll get something like this:
+```
+{
+  "_id": "56cd21c444c4e62824cefddb",
+  "name": "Initial Consult",
+  "script": "Booking script / notes for receptionist / concierge,
+  "automations": [],
+  "availability": [
+    "concierge",
+    "new client"
+  ],
+  "hideFromClient": false,
+  "duration": 40,
+  "textColor": "black",
+  "color": "rgb(102, 198, 131)",
+  "resources": [
+    {
+      "_id": "56a1d4dff2ff141025e2a1dd",
+      "name": "Shane"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Initial Consult",
+      "type": "service",
+      "priceExTax": 12000,
+      "priceIncTax": 12000,
+      "taxes": []
+    },
+    {
+      "id": 2,
+      "name": "Adjustment",
+      "type": "service",
+      "priceExTax": 7000,
+      "priceIncTax": 7000,
+      "taxes": []
+    }
+  ]
+}
